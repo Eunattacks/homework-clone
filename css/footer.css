@@ -1,0 +1,39 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  background-color: rgb(242, 243, 247);
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-block-icons img {
+  width: 50px;
+}
+
+.footer-block-chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 12px 20px 12px 20px;
+  border-radius: 40px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-block-chat img {
+  padding-left: 100px;
+  width: 40px;
+}
+
+.footer-block-pic img {
+  width: 50px;
+  padding-right: 20px;
+}
